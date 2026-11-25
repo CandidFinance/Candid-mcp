@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "uk.co.candid-finance/calculators",
+  "title": "Candid calculators",
+  "description": "Free UK personal finance calculators: £100k tax trap, student loan overpaying, mortgage vs saving.",
+  "websiteUrl": "https://www.candid-finance.co.uk/",
+  "repository": {
+    "url": "https://github.com/CandidFinance/CandidFinance-candid-mcp",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://www.candid-finance.co.uk/icon-512.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "version": "1.0.1",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.candid-finance.co.uk/mcp"
+    }
+  ]
+}
